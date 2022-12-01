@@ -18,7 +18,7 @@ fn main() {
     //TODO: Panic if not enough arguments are provided
     //Panic should output the string "Not enough arguments"
     if args.len() < 3 {
-        panic!("Not enough arguments");
+        panic!("Not enough arguments")
     }
 
     //TODO:
