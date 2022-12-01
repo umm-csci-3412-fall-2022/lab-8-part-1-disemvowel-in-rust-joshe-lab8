@@ -25,7 +25,7 @@ fn main() {
     let s = read_file(Path::new(&args[1]));
 
     // Pass that to disemvowel to remove the vowels
-    let s = read_file(Path::new(&args[1]));
+    let s_disemvowel = disemvowel(&s);
 
     // Write the disemvoweled text using write_file
     write_file(Path::new(&args[2]), &s_disemvowel);
